@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 5px;
+  background-color: #1c2d4d;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  min-height: fit-content;
+  max-height: max-content;
+}
+
+#selecione {
+  display: inline-block;
+  font-size: 14px;
+}
+
+#seguro,
+#seguradoras {
+  border-radius: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  align-content: center;
+}
+
+#info-seguradora ul,
+#info-seguro ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#info-seguradora ul a,
+#info-seguro ul a {
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 50px;
+  font-size: larger;
+  color: #ffffff;
+  background-color: #1c2d4d;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+#info-seguradora ul a:hover,
+#info-seguro ul a:hover {
+  background-color: #0c1627;
+}
+
+#section-info,
+#escolha,
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}

@@ -1,0 +1,15 @@
+{
+    "greeting": {
+      "message": "Hello!",
+      "description": "A friendly greeting"
+    },
+    "welcome": {
+      "message": "Welcome to our extension!",
+      "description": "A message welcoming the user to the extension"
+    },
+    "error": {
+      "message": "An error occurred. Please try again later.",
+      "description": "A message indicating that an error occurred"
+    }
+  }
+  

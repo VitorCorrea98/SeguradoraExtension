@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Seguros/Seguradoras",
+    "version": "1.0",
+    "description": "Informações sobre os seguros e suas devidas seguradoras",
+    "permissions": [
+        "activeTab"
+    ],
+    "default_locale": "pt",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "./QuemSomos.png"
+    }
+ }
+ 
